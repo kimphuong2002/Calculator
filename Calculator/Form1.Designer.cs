@@ -98,12 +98,14 @@
             // 
             // btTru
             // 
+            this.btTru.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btTru.ForeColor = System.Drawing.Color.Red;
             this.btTru.Location = new System.Drawing.Point(516, 357);
             this.btTru.Name = "btTru";
             this.btTru.Size = new System.Drawing.Size(146, 58);
             this.btTru.TabIndex = 2;
             this.btTru.Text = "Tru";
-            this.btTru.UseVisualStyleBackColor = true;
+            this.btTru.UseVisualStyleBackColor = false;
             this.btTru.Click += new System.EventHandler(this.btTru_Click);
             // 
             // Form1
