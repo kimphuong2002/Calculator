@@ -36,6 +36,8 @@
             this.txtTong = new System.Windows.Forms.TextBox();
             this.btCong = new System.Windows.Forms.Button();
             this.btTru = new System.Windows.Forms.Button();
+            this.btNhan = new System.Windows.Forms.Button();
+            this.btChia = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -88,7 +90,7 @@
             // 
             // btCong
             // 
-            this.btCong.Location = new System.Drawing.Point(237, 357);
+            this.btCong.Location = new System.Drawing.Point(111, 357);
             this.btCong.Name = "btCong";
             this.btCong.Size = new System.Drawing.Size(146, 58);
             this.btCong.TabIndex = 2;
@@ -100,7 +102,7 @@
             // 
             this.btTru.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btTru.ForeColor = System.Drawing.Color.Red;
-            this.btTru.Location = new System.Drawing.Point(516, 357);
+            this.btTru.Location = new System.Drawing.Point(309, 357);
             this.btTru.Name = "btTru";
             this.btTru.Size = new System.Drawing.Size(146, 58);
             this.btTru.TabIndex = 2;
@@ -108,11 +110,33 @@
             this.btTru.UseVisualStyleBackColor = false;
             this.btTru.Click += new System.EventHandler(this.btTru_Click);
             // 
+            // btNhan
+            // 
+            this.btNhan.Location = new System.Drawing.Point(505, 357);
+            this.btNhan.Name = "btNhan";
+            this.btNhan.Size = new System.Drawing.Size(146, 58);
+            this.btNhan.TabIndex = 2;
+            this.btNhan.Text = "Nhan";
+            this.btNhan.UseVisualStyleBackColor = true;
+            // 
+            // btChia
+            // 
+            this.btChia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btChia.ForeColor = System.Drawing.Color.Red;
+            this.btChia.Location = new System.Drawing.Point(703, 357);
+            this.btChia.Name = "btChia";
+            this.btChia.Size = new System.Drawing.Size(146, 58);
+            this.btChia.TabIndex = 2;
+            this.btChia.Text = "Chia";
+            this.btChia.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(926, 581);
+            this.Controls.Add(this.btChia);
+            this.Controls.Add(this.btNhan);
             this.Controls.Add(this.btTru);
             this.Controls.Add(this.btCong);
             this.Controls.Add(this.txtTong);
@@ -140,6 +164,8 @@
         private System.Windows.Forms.TextBox txtTong;
         private System.Windows.Forms.Button btCong;
         private System.Windows.Forms.Button btTru;
+        private System.Windows.Forms.Button btNhan;
+        private System.Windows.Forms.Button btChia;
     }
 }
 
